@@ -47,7 +47,7 @@ CreateCustomer(name);
 Savecustomer();
 ```
 
-To fix this, we need to specify all of the parameters in the signature. 
+To fix this, we need to specify all of the parameters in the signature and remove object properties. 
 
 So instead of 
 
@@ -71,7 +71,10 @@ private Customer CreateCustomer(string name, Address address){
 
 Now, `CreateCustomer` function cannot be called before the fucntion that gets us the Address. 
 
-Making method signatures hontest automatically a class immutable. 
+Making method signatures hontest automatically makes for an immutable class.
+
+
+
 
 
 
