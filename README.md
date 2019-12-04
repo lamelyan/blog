@@ -7,7 +7,7 @@
 - *Referentially transparent*  do not update global state. 
 
 
-### Advantage of functional 
+### Advantage of functions
 
 - *Easier to reason about.* 
 
@@ -20,5 +20,13 @@
 
 ### Immutable Architecture
 
+*Immutability* inability to change data
 
+*State* data that changes over time
+
+*Side effect* a change that is maade to some state
+
+State vs Statefull classes
+
+Methods in stateful classes can leave a side-effect by changing object's state.
 
