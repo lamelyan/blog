@@ -20,13 +20,15 @@
 
 ### Immutable Architecture
 
-*Immutability* inability to change data
+Volcabulary:
 
-*State* data that changes over time
+- *Immutability* inability to change data
 
-*Side effect* a change that is maade to some state
+- *State* data that changes over time
+
+- *Side effect* a change that is maade to some state
 
 State vs Statefull classes
 
-Methods in stateful classes can leave a side-effect by changing object's state.
+Methods of a stateful classe can leave a side-effect by changing object's state.  This is a *mutable operation* and it makes your code *dishounest*. 
 
