@@ -61,7 +61,9 @@ private Customer CreateCustomer(string name, Address address){
 }
 ```
 
+Now, `CreateCustomer` function cannot be called before the fucntion that gets us the Address. 
 
+Making method signatures hontest automatically a class immutable. 
 
 
 
