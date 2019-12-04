@@ -37,9 +37,30 @@ Stateless class is immutable. It's methods do not leave side-effects on global s
 
 ### Temporal Coupling
 
-When the order of function calls matters it is considered a temporarl coupling.  Usually, this happens because a function hides one of it's inputs. 
+When the order of function calls matters it is considered a temporarl coupling.  Usually, this happens because functions update object's state via object properties. 
 
 To fix this, we need to specify all of the parameters in the signature. Or in other words, lift all side-effects and dependencies to the signature level. 
+
+
+So instead of 
+
+``` 
+private Addres _address;
+private Customer _customer;
+
+private void CreateCustomer(string name){
+_customer = new Customer(name, _address);
+```
+
+do 
+
+```
+private Customer CreateCustomer(string name, Address address){
+return new Customer(name, address);
+```
+
+
+
 
 
 
