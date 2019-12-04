@@ -2,8 +2,9 @@
 
 ### Function properties
 
-- Functions return the same result for same input.  It doesn't update state. 
-- *Method signature honesty* guarantees that for a given number of inputs, you'll get specific possible outputs. There are no surprises, exceptions, etc.
+- *Honest* return the same result for same input.  *Method signature honesty* guarantees that for a given number of inputs, you'll get specific possible outputs. There are no surprises, exceptions, etc.
+
+- *Referentially transparent*  do not update state. 
 
 
 ### Advantage of functional programming
