@@ -28,7 +28,20 @@ Volcabulary:
 
 - *Side effect* a change that is maade to some state
 
-State vs Statefull classes
+Stateless vs Statefull classes
 
-Methods of a stateful classe can leave a side-effect by changing object's state.  This is a *mutable operation* and it makes your code *dishounest*. 
+Methods of a stateful class can leave a side-effect by changing object's state.  This is a *mutable operation* and it makes your code *dishounest*. 
+
+
+Stateless class is immutable. It's methods do not leave side-effects on global state. 
+
+### Temporal Coupling
+
+When the order of function calls matters it is considered a temporarl coupling.  Usually, this happens because a function hides one of it's inputs. 
+
+To fix this, we need to specify all of the parameters in the signature. Or in other words, lift all side-effects and dependencies to the signature level. 
+
+
+
+
 
