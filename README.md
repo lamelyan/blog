@@ -2,20 +2,20 @@
 
 ### Functions are
 
-- *Honest* return the same result for same input.  *Method signature honesty* guarantees that for a given number of inputs, you'll get specific possible outputs. There are no surprises, exceptions, etc.
+- *Honest* return the same result for the same input.  *Method signature honesty* guarantees that for a given number of inputs, you'll get specific possible outputs. There are no surprises, exceptions, etc.
 
-- *Referentially transparent*  do not update global state. 
+- *Referentially transparent*  do not update the global state. 
 
 
 ### Advantage of functions
 
 - *Easier to reason about.* 
 
-   Because of two traits of *method signature honesty* and *referential transparency* it is eaiser to reason about the code. We don't have to look up documentation or implementation detail of a function. The signature tells us what will happen after we call a function. Unit tests become easier. No need to create mocks or test doubles. 
+   Because of two traits of *method signature honesty* and *referential transparency* it is easier to reason about the code. We don't have to look up documentation or implementation detail of a function. The signature tells us what will happen after we call a function. Unit tests become easier. No need to create mocks or test doubles. 
 
 - *Composition.*
 
-    When we know that a function does exactly what it suppose to without updating state, we can treat it as a building block.  This lends the functions to composition. 
+    When we know that a function does exactly what it suppose to without updating the state, we can treat it as a building block.  This lends the functions to composition. 
 
 
 ### Immutable Architecture
@@ -26,21 +26,21 @@ Volcabulary:
 
 - *State* data that changes over time
 
-- *Side effect* a change that is maade to some state
+- *Side effect* a change that is made to some state
 
-Stateless vs Statefull classes
+Stateless vs Stateful classes
 
-Methods of a stateful class can leave a side-effect by changing object's state.  This is a *mutable operation* and it makes your code *dishounest*. 
+Methods of a stateful class can leave a side-effect by changing the object's state.  This is a *mutable operation* and it makes your code *dishonest*. 
 
 
-Stateless class is immutable. It's methods do not leave side-effects on global state. 
+The stateless class is immutable. Its methods do not leave side-effects on the global state. 
 
 ### Temporal Coupling
 
-When the order of function calls matters it is considered a temporarl coupling.  Usually, this happens because functions update object's state via object properties. For example:
+When the order of function calls matters it is considered a temporal coupling.  Usually, this happens because functions update the object's state via object properties. For example:
 
 ```
-// Examplel of temporal coupling.
+// Example of temporal coupling.
 // Changing the order of these calls will cause an error. 
 CreateAddrss(address);
 CreateCustomer(name);
@@ -69,11 +69,20 @@ private Customer CreateCustomer(string name, Address address){
 }
 ```
 
-Now, `CreateCustomer` function cannot be called before the fucntion that gets us the Address. 
+Now, the `CreateCustomer` function cannot be called before the function that gets us the Address. 
 
-Making method signatures hontest automatically makes for an immutable class.
+Making method signatures honest automatically makes for an immutable class.
 
 
+
+### Immutability limitations
+
+Note that immutability can have an impact on CPU and Memory usage. This is because we no longer reuse objects via properties and instead create new objects.
+
+
+### How to deal with side effects
+
+CQS - command-query separation principle
 
 
 
