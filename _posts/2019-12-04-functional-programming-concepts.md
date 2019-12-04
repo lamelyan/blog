@@ -3,7 +3,6 @@ layout: post
 title:  "Functional programming concepts"
 ---
 
-blog
 
 ## Functional programming concepts 
 
