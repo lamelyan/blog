@@ -37,10 +37,17 @@ Stateless class is immutable. It's methods do not leave side-effects on global s
 
 ### Temporal Coupling
 
-When the order of function calls matters it is considered a temporarl coupling.  Usually, this happens because functions update object's state via object properties. 
+When the order of function calls matters it is considered a temporarl coupling.  Usually, this happens because functions update object's state via object properties. For example:
 
-To fix this, we need to specify all of the parameters in the signature. Or in other words, lift all side-effects and dependencies to the signature level. 
+```
+// Examplel of temporal coupling.
+// Changing the order of these calls will cause an error. 
+CreateAddrss(address);
+CreateCustomer(name);
+Savecustomer();
+```
 
+To fix this, we need to specify all of the parameters in the signature. 
 
 So instead of 
 
@@ -56,6 +63,7 @@ private void CreateCustomer(string name){
 do 
 
 ```
+// Lift all side-effects and dependencies to the signature level. 
 private Customer CreateCustomer(string name, Address address){
    return new Customer(name, address);
 }
