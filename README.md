@@ -9,5 +9,10 @@
 
 ### Advantage of functional 
 
-- Code complexity
-Because of two traits of *method signature honesty* and *referential transparency* it is eaiser to reason about the code
+- *Code complexity.* 
+
+Because of two traits of *method signature honesty* and *referential transparency* it is eaiser to reason about the code.
+
+- *Composition.*
+
+When we know that a function does exactly what it suppose to without updating state, we can treat it as a building block.  This lends the functions to composition. 
