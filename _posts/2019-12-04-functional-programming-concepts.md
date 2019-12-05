@@ -3,8 +3,7 @@ layout: post
 title:  "Functional programming concepts"
 ---
 
-
-## Functional programming concepts 
+## Functional programming concepts
 
 ### Functions are
 
@@ -90,6 +89,42 @@ Note that immutability can have an impact on CPU and Memory usage. This is becau
 
 CQS - command-query separation principle
 
+### Do not use exceptions to control the program flow
+Guideline - always perfer using return values over exceptions.
+Do not use exceptions for validation. 
+Exception is used for stopping operation in case of a bug. 
+
+*Fail Fast Priciple* allows for:
+Shortening the feedback loop.
+Confidence in the working software.
+Protects the persistence state (from data corrupton).
+
+
+### Primitive Obsession
+
+Primitive obsesion is an anti-pattern that stands for using primitive types for domain modeling.
+
+Drawbacks to passing in a primitive type:
+
+##### Dishonest functions
+
+```
+function User CreateUser(string email){
+   //if invalid email string, throw exception.   
+}
+```
+Since we throw exceptions for strings that do not meet conditions for a valid email, this makes this function dishonest. 
+
+##### Code duplication
+
+If we pass an email as a string somewhere else, we would have to perform the same checks which leads to code duplication. 
+
+#### Solution:
+*Value objects*
+
+To git rid of primitive obsession, introduce a separte class (a Value Object) for each concept in your code base.
+
+*Defensive programming* where you check the validity of a primitive type is a code smell.  For example, checking validity of an email inside a Customer class. It's not a responsibility of a Customer to make sure that an email is correct. 
 
 
 
