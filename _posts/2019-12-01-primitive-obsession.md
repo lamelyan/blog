@@ -1,3 +1,11 @@
+---
+layout: post
+title: Primitive Obsession
+description: 
+tags: functional-principles-khorikov
+---
+
+
 ### Primitive Obsession
 
 Primitive obsession is an anti-pattern that stands for using primitive types for domain modeling.
