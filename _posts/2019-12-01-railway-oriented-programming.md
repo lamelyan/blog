@@ -134,3 +134,7 @@ public static class ResultExtensions
     }
 ```
 
+
+
+
+Recommended presentation [Railway oriented programming: Error handling in functional languages by Scott Wlaschin](https://vimeo.com/113707214) 
