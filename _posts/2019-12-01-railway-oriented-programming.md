@@ -9,6 +9,8 @@ tags: [functional-principles-khorikov]
 
 Handling failures and input errors in a functional way. 
 
+The [Railway Oriented Programming](https://vimeo.com/113707214) concept was introduced by Scrott Wlaschin.
+
 Problem: Core logic is hidden by orchestration/boilerplate code (validation, error handling, logging, etc).
 
 This results with the code that is hard to read. Example:
@@ -137,4 +139,3 @@ public static class ResultExtensions
 
 
 
-Recommended presentation [Railway oriented programming: Error handling in functional languages by Scott Wlaschin](https://vimeo.com/113707214) 
