@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Temporal Coupling
 tags: functional-principles-khorikov
 ---
