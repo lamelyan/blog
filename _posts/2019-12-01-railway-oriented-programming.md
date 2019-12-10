@@ -7,9 +7,10 @@ tags: [functional-principles-khorikov]
 
 #### Railway-oriented Programming
 
+The [Railway Oriented Programming](https://vimeo.com/113707214) concept was introduced by Scrott Wlaschin.
+
 Handling failures and input errors in a functional way. 
 
-The [Railway Oriented Programming](https://vimeo.com/113707214) concept was introduced by Scrott Wlaschin.
 
 Problem: Core logic is hidden by orchestration/boilerplate code (validation, error handling, logging, etc).
 
