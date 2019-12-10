@@ -1,3 +1,10 @@
+---
+layout: post
+title: Avoiding Nulls with the Maybe Type
+description: 
+tags: functional-principles-khorikov
+---
+
 
 ### Avoiding Nulls with the Maybe Type
 
