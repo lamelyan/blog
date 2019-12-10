@@ -1,3 +1,10 @@
+---
+layout: post
+title: Temporal Coupling
+tags: functional-principles-khorikov
+---
+
+
 ### Temporal Coupling
 
 When the order of function calls matters it is considered a temporal coupling.  Usually, this happens because functions update the object's state via object properties. For example:
