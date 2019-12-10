@@ -1,7 +1,7 @@
 ---
 title: Railway-oriented Programming
 description: 
-tags: functional-principles-khorikov
+tags: [functional-principles-khorikov]
 ---
 
 
