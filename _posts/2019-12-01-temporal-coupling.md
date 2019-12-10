@@ -1,6 +1,6 @@
 ---
 title: Temporal Coupling
-tags: functional-principles-khorikov
+tags: [functional-principles-khorikov]
 ---
 
 
