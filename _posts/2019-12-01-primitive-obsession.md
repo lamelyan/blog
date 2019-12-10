@@ -1,7 +1,7 @@
 ---
 title: Primitive Obsession
 description: 
-tags: functional-principles-khorikov
+tags: [functional-principles-khorikov]
 ---
 
 
