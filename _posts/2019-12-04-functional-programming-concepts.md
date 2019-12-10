@@ -1,8 +1,3 @@
----
-layout: post
-title:  "Functional programming concepts"
----
-
 ## Functional programming concepts
 
 ### Functions are
