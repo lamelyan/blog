@@ -59,9 +59,16 @@ You can use unit tests to start building and testing the core domain.
 
 ### Unit testing and DDD
 
+Pragmatic approach:  Unit tests the Core Domain as much as possible. Use few integration tests for infrastructure code. 
+
 Try to get 100% code coverage of the core domain logic (Entity, Value Objects, Aggregates, Domain Events).  The rest of the application doesn't need to have as much coverage.   Since we isolate the core domain logic from repositories or application services, we do not need to create mocks or other test-doubles to test it.  If we happen to use mocks, it's a code-smell that our domain layer is not isolated. 
 
 Repositories, Factories, Application services, do not need to be unit-tested.  They should be integration tested instead.
+
+
+
+
+
 
 
 
