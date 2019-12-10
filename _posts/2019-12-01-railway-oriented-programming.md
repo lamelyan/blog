@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Railway-oriented Programming
 description: 
 tags: functional-principles-khorikov
