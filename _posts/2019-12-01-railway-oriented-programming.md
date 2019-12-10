@@ -1,3 +1,11 @@
+---
+layout: post
+title: Railway-oriented Programming
+description: 
+tags: functional-principles-khorikov
+---
+
+
 #### Railway-oriented Programming
 
 Handling failures and input errors in a functional way. 
