@@ -1,5 +1,6 @@
 ---
 title: Functional Principles in C#
+tags: [functional-principles-khorikov]
 ---
 
 ## Functional programming concepts
