@@ -1,4 +1,4 @@
-theme: jekyll-theme-architect
+remote_theme: tale
 baseurl: /blog
 github:
   is_project_page: false
