@@ -1,4 +1,4 @@
-theme: jekyll-theme-architect
+theme: jekyll-theme-midnight
 baseurl: /blog
 github:
   is_project_page: false
