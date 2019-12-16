@@ -1,4 +1,4 @@
-remote_theme: tale
+remote_theme: chesterhow/tale
 baseurl: /blog
 github:
   is_project_page: false
