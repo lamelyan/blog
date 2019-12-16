@@ -1,7 +1,9 @@
 
-   A great Pluralsight course by Vladimir Khorikov on [Applying Functional Principles in C#](https://app.pluralsight.com/library/courses/csharp-applying-functional-principles/).  
+
+
+[Applying Functional Principles in C#](https://app.pluralsight.com/library/courses/csharp-applying-functional-principles/) by Vladimir Khorikov
    
-   I took away a lot of good programming concepts. 
+Takeaways:
 
 <ul>
   {% for post in site.posts %}
@@ -14,9 +16,10 @@
 </ul>
 
 
-WIP [Domain-Driven Design in Practice](https://app.pluralsight.com/library/courses/domain-driven-design-in-practice/) 
+[Domain-Driven Design in Practice](https://app.pluralsight.com/library/courses/domain-driven-design-in-practice/) 
 by Vladimir Khorikov
 
+Takeaways:
 <ul>
   {% for post in site.posts %}
     {% if post.tags contains 'ddd-khorikov' %}
