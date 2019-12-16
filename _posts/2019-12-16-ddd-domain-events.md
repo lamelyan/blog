@@ -2,15 +2,17 @@
 title: Domain events
 tags: [ddd-khorikov]
 ---
+
+
 ### Domain events
 
 
-Domain events facilitate communication between Bounded Contexts (BC).  We don't want to reference entities from different contexts (this will introduce coupling), instead we can use domain events. The entity from BC1 can raise an event and entity from BC2 can handle it. 
+Domain events facilitate communication between Bounded Contexts (BC).  If an action in BC1 requires an action in BC2 we could reference entities from different contexts but this will introduce coupling.   Instead, we can use domain events so the entity from BC1 can raise an event and entity from BC2 can handle it. 
 
-We need to make sure that events are raised when the entire transaction is complete. If events are raised by entity classes, it's hard to rollback actions if there was an error after event was raised. 
+We need to make sure that events are raised when the entire transaction is complete. It's hard to rollback actions if there was an error after the event was raised. 
 
 To handle this scenario, we break down the solution into two parts:
-1. Creating event  - which is done by entities
+1. Creating an event  - which is done by entities
 2. Dispatching event - which is done by infrastructure
 
 
@@ -23,7 +25,7 @@ Instead of an entity raising an event, creates it and saves it to an internal li
         private readonly List<IDomainEvent> _domainEvents = new List<IDomainEvent>();
         public virtual IReadOnlyList<IDomainEvent> DomainEvents => _domainEvents;
 
-        // This method should only be called by derrived entities, hence it's marked as protected
+        // This method should only be called by derived entities, hence it's marked as protected
         protected virtual void AddDomainEvent(IDomainEvent newEvent)
         {
             _domainEvents.Add(newEvent);
