@@ -1,4 +1,13 @@
-
+Design Patterns
+<ul>
+  {% for post in site.posts %}
+    {% if post.tags contains 'design-pattern' %}
+      <li>
+        <a href="{{ post.url | absolute_url}}">{{ post.title }}</a>
+      </li>
+     {% endif %}
+  {% endfor %}
+</ul>
 
 
 <a href="https://app.pluralsight.com/library/courses/csharp-applying-functional-principles/" target="_blank">Applying Functional Principles in C#</a>
