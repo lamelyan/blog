@@ -58,13 +58,13 @@ State design pattern solves this problem by:
 2. Delegating the execution of its behaviors to one of the state objects at a given time instead of implementing state-specific behaviors itself. 
 
 There are three main components to the pattern:
-1. the context
+1. the **context**
 The context is a class which maintains an instance of a concrete state as its current state.
 
-2. an *abstract* state class
+2. an **abstract state** class
  The abstract state is an abstract class that defines an interface encapsulating all state-specific behaviors. 
  
-3. and any number of concrete states that derrive from abstract state class
+3. and any number of **concrete states** that derrive from abstract state class
 The concrete state is a subclass of the abstract state that implements behaviors specific to a particular state of the context. 
 
 Basically you offload all the business logic to the concrete states that implement behavior. 
