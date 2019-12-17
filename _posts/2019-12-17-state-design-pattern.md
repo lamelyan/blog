@@ -195,36 +195,36 @@ Now when a new behavior is needed, you can implement a concrete behavior class a
 public partial class MainWindow : Window
 {
 
-...
+	...
 
-private BookingContext booking;
+	private BookingContext booking;
 
-...
+	...
 
-private void btnCreate_Click(object sender, RoutedEventArgs e)
-{
-    booking = new BookingContext(this); // Creates a 'new booking' state
-}
+	private void btnCreate_Click(object sender, RoutedEventArgs e)
+	{
+	    booking = new BookingContext(this); // Creates a 'new booking' state
+	}
 
-private void btnSubmit_Click(object sender, RoutedEventArgs e)
-{
-    ...
-    
-    if(booking != null)
-	booking.SubmitDetails(attendee, ticketCount);
-}
+	private void btnSubmit_Click(object sender, RoutedEventArgs e)
+	{
+	    ...
 
-private void btnCancel_Click(object sender, RoutedEventArgs e)
-{
-    if (booking != null)
-	booking.Cancel();
-}
+	    if(booking != null)
+		booking.SubmitDetails(attendee, ticketCount);
+	}
 
-private void btnDatePassed_Click(object sender, RoutedEventArgs e)
-{
-    if (booking != null)
-	booking.DatePassed();
-}
-...
+	private void btnCancel_Click(object sender, RoutedEventArgs e)
+	{
+	    if (booking != null)
+		booking.Cancel();
+	}
+
+	private void btnDatePassed_Click(object sender, RoutedEventArgs e)
+	{
+	    if (booking != null)
+		booking.DatePassed();
+	}
+	...
 }
 ```
