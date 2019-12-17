@@ -16,31 +16,31 @@ You'll end up with a switch statement that looks something like this:
 
 ```csharp
 public void ProcessingComplete(Booking booking, ProcessingResult result)
-        {
-            isPending = false;  
+{
+	isPending = false;  
 
-            switch (result)
-            {
-                case ProcessingResult.Sucess:
-                    isBooked = true;
-                    ShowState("Booked");
-                    View.ShowStatusPage("Enjoy the Event");
-                    break;
-                case ProcessingResult.Fail:
-                    View.ShowProcessingError();
-                    Attendee = string.Empty;
-                    TicketCount = 0;
-                    BookingID = new Random().Next();
-                    isNew = true;
-                    ShowState("New");
-                    View.ShowEntryPage();
-                    break;
-                case ProcessingResult.Cancel:
-                    ShowState("Closed");
-                    View.ShowStatusPage("Processing Canceled");
-                    break;
-            }
-        }
+	switch (result)
+	{
+		case ProcessingResult.Sucess:
+			isBooked = true;
+			ShowState("Booked");
+			View.ShowStatusPage("Enjoy the Event");
+			break;
+		case ProcessingResult.Fail:
+			View.ShowProcessingError();
+			Attendee = string.Empty;
+			TicketCount = 0;
+			BookingID = new Random().Next();
+			isNew = true;
+			ShowState("New");
+			View.ShowEntryPage();
+			break;
+		case ProcessingResult.Cancel:
+			ShowState("Closed");
+			View.ShowStatusPage("Processing Canceled");
+			break;
+	}
+}
 ```
 For entire problematic class [see this reference](https://github.com/dev-e-loper/blog/blob/b50b18bc23f3a52ca394d4d618ded3cf7ea392e9/src/design-patterns/state/Booking.cs).
 
@@ -56,18 +56,15 @@ State design pattern solves this problem by:
 1. Encapsulating state-specific behaviors within separate state objects. 
 2. Delegating the execution of its behaviors to one of the state objects at a given time instead of implementing state-specific behaviors itself. 
 
-There are three main components to the pattern:
-1. the context
+####Three main components to the pattern:
+1. Context
 The context is a class which maintains an instance of a concrete state as its current state.
 
-2. an *abstract* state class
+2. Abstract state class
  The abstract state is an abstract class that defines an interface encapsulating all state-specific behaviors. 
  
-3. and any number of concrete states that derive from abstract state class
+3. Concrete states that derive from abstract state class
 The concrete state is a subclass of the abstract state that implements behaviors specific to a particular state of the context. 
-
-You offload all the business logic to the concrete states that implement behavior. 
-
 
 ### Abstract state
 
