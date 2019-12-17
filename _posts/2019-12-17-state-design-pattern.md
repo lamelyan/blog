@@ -192,7 +192,7 @@ Now when a new behavior is needed, you can implement a concrete behavior class a
 ### Client uses context to manipulate state
 
 ```csharp
-  public partial class MainWindow : Window
+public partial class MainWindow : Window
 {
 
 ...
