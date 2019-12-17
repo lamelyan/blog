@@ -4,7 +4,7 @@ tags: [design-pattern]
 ---
 ### State design pattern
 
-The **state pattern** is a behavioral software **design pattern** that allows an object to alter its behavior when its internal **state** changes.
+The state pattern is a behavioral software design pattern that *allows an object to alter its behavior when its internal **state** changes.*
 
 #### Motivating example
 Booking a ticket.   Booking has multiple **states**: New, Pending, Closed, Booked. The **behavior** of the booking changes depending on the **state** of the booking. How can this be accomplished?
