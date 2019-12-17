@@ -191,15 +191,13 @@ Now when a new behavior is needed, you can implement a concrete behavior class a
 
 ### Client uses context to manipulate state
 
+
+
 ```csharp
+// Some logic omitted for brevity
 public partial class MainWindow : Window
-{
-
-	...
-
+{	
 	private BookingContext booking;
-
-	...
 
 	private void btnCreate_Click(object sender, RoutedEventArgs e)
 	{
@@ -208,8 +206,6 @@ public partial class MainWindow : Window
 
 	private void btnSubmit_Click(object sender, RoutedEventArgs e)
 	{
-	    ...
-
 	    if(booking != null)
 		booking.SubmitDetails(attendee, ticketCount);
 	}
@@ -225,6 +221,5 @@ public partial class MainWindow : Window
 	    if (booking != null)
 		booking.DatePassed();
 	}
-	...
 }
 ```
