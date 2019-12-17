@@ -223,3 +223,6 @@ public partial class MainWindow : Window
 	}
 }
 ```
+
+-------------
+Notes from the Pluralsight Course [C# Design Patterns: State](https://app.pluralsight.com/library/courses/c-sharp-design-patterns-state/) by [Marc Gilbert](https://app.pluralsight.com/profile/author/marc-gilbert)
