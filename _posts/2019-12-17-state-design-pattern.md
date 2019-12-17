@@ -185,3 +185,5 @@ namespace State_Design_Pattern.Logic
     }
 }
 ```
+
+Now when a new behavior is needed, you can implement a concrete behavior class and use it in your context class. No need to worry about breaking existing behaviors since the logic is encapsulated in their own concrete classes.
