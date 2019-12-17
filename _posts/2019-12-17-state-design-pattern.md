@@ -2,7 +2,6 @@
 title: State design pattern
 tags: [design-pattern]
 ---
-
 ### State design pattern
 
 The **state pattern** is a behavioral software **design pattern** that allows an object to alter its behavior when its internal **state** changes.
@@ -58,22 +57,22 @@ State design pattern solves this problem by:
 2. Delegating the execution of its behaviors to one of the state objects at a given time instead of implementing state-specific behaviors itself. 
 
 There are three main components to the pattern:
-1. the **context**
+1. the context
 The context is a class which maintains an instance of a concrete state as its current state.
 
-2. an **abstract state** class
+2. an *abstract* state class
  The abstract state is an abstract class that defines an interface encapsulating all state-specific behaviors. 
  
-3. and any number of **concrete states** that derrive from abstract state class
+3. and any number of concrete states that derive from abstract state class
 The concrete state is a subclass of the abstract state that implements behaviors specific to a particular state of the context. 
 
-Basically you offload all the business logic to the concrete states that implement behavior. 
+You offload all the business logic to the concrete states that implement behavior. 
 
 
 ### Abstract state
 
 Notice that: 
-1. State is abstract which means it has to be derrive in order to be instatiated
+1. The state is abstract which means it has to be derived to be instantiated
 2. The context is passed in.
 ```csharp
 namespace State_Design_Pattern.Logic
@@ -90,7 +89,7 @@ namespace State_Design_Pattern.Logic
 
 ### Concrete state
 
-The following is a sample of a concreate state - New Booking. 
+The following is a sample of a concrete state - New Booking. 
 
 Note: 
 1. Implements the abstract `BookingState` class
@@ -132,7 +131,7 @@ namespace State_Design_Pattern.Logic
 Context class now contains very little information about the business logic for specific states.
 
 Note: 
-1. Context hold the current state as a property `currentState`
+1. Context holds the current state as a property `currentState`
 2. It delegates all the logic to the concrete state objects like so:
 ```csharp
 public  void  Cancel()  
