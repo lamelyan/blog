@@ -1,7 +1,8 @@
 
 
 
-[Applying Functional Principles in C#](https://app.pluralsight.com/library/courses/csharp-applying-functional-principles/) by Vladimir Khorikov
+<a href="https://app.pluralsight.com/library/courses/csharp-applying-functional-principles/" target="_blank">Applying Functional Principles in C#</a>
+by Vladimir Khorikov
    
 Takeaways:
 
@@ -16,7 +17,7 @@ Takeaways:
 </ul>
 
 
-[Domain-Driven Design in Practice](https://app.pluralsight.com/library/courses/domain-driven-design-in-practice/) 
+<a href="https://app.pluralsight.com/library/courses/domain-driven-design-in-practice/" target="_blank">Domain-Driven Design in Practice</a>
 by Vladimir Khorikov
 
 Takeaways:
