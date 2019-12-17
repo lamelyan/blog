@@ -58,13 +58,13 @@ State design pattern solves this problem by:
 
 #### Three main components to the pattern:
 1. Context
-The context is a class which maintains an instance of a concrete state as its current state.
+   The context is a class which maintains an instance of a concrete state as its current state.
 
 2. Abstract state class
- The abstract state is an abstract class that defines an interface encapsulating all state-specific behaviors. 
+  The abstract state is an abstract class that defines an interface encapsulating all state-specific behaviors. 
  
 3. Concrete states that derive from abstract state class
-The concrete state is a subclass of the abstract state that implements behaviors specific to a particular state of the context. 
+   The concrete state is a subclass of the abstract state that implements behaviors specific to a particular state of the context. 
 
 ### Abstract state
 
