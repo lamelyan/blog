@@ -56,7 +56,7 @@ State design pattern solves this problem by:
 1. Encapsulating state-specific behaviors within separate state objects. 
 2. Delegating the execution of its behaviors to one of the state objects at a given time instead of implementing state-specific behaviors itself. 
 
-####Three main components to the pattern:
+#### Three main components to the pattern:
 1. Context
 The context is a class which maintains an instance of a concrete state as its current state.
 
