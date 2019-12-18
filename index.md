@@ -61,4 +61,4 @@ Takeaways:
 ### SOLID principles
 
 The best explanation of SOLID principles I've seen so far is
-<a href="https://app.pluralsight.com/library/courses/domain-driven-design-in-practice/" target="_blank">this pluralsight presentation </a>by Mark Seemann. I will need to jot down a list of takeaways for reference.
+<a href="https://app.pluralsight.com/library/courses/encapsulation-solid/table-of-contents" target="_blank">this pluralsight presentation </a>by Mark Seemann. I will need to jot down a list of takeaways for reference.
