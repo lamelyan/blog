@@ -12,7 +12,7 @@
 </ul>
 
 
-### 
+### Functional priciples
 
 
 <a href="https://app.pluralsight.com/library/courses/csharp-applying-functional-principles/" target="_blank">Applying Functional Principles in C#</a>
@@ -30,6 +30,7 @@ Takeaways:
   {% endfor %}
 </ul>
 
+### Domain-driven design
 
 <a href="https://app.pluralsight.com/library/courses/domain-driven-design-in-practice/" target="_blank">Domain-Driven Design in Practice</a>
 by Vladimir Khorikov
