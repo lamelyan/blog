@@ -1,7 +1,6 @@
 ### Design Patterns
 
    A software design pattern is a general, reusable solution to a commonly occurring problem.  
-   
    Here are my notes on some of the design patterns
 
 <ul>
@@ -35,6 +34,8 @@ Takeaways:
 </ul>
 
 ### Domain-driven design
+
+Yet another great presentation by Vladimir Khorikov on domain-driven design architecture.  This is a great introduction to DDD.  In it he actually demonstrates DDD concepts through code. 
 
 <a href="https://app.pluralsight.com/library/courses/domain-driven-design-in-practice/" target="_blank">Domain-Driven Design in Practice</a>
 by Vladimir Khorikov
