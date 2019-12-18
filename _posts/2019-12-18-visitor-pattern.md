@@ -1,4 +1,3 @@
-
 ---
 title: Visitor design pattern
 tags: [design-pattern]
