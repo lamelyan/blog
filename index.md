@@ -1,4 +1,5 @@
 ### Design Patterns
+
    A software design pattern is a general, reusable solution to a commonly occurring problem.  Here are my notes on some of the design patterns
 
 <ul>
