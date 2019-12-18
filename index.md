@@ -1,3 +1,10 @@
+### Great people to follow in .NET space
+A list of people who articulate concepts exceptionally well. 
+
+- Scott Allen <a href="https://odetocode.com/" target="_blank">https://odetocode.com/</a> 
+- Mark Seemann <a href="https://blog.ploeh.dk/about/" target="_blank">https://blog.ploeh.dk/about/</a> 
+- Vladimir Khorikov <a href="https://enterprisecraftsmanship.com/" target="_blank">https://enterprisecraftsmanship.com/</a> 
+
 ### Design Patterns
 
    A software design pattern is a general, reusable solution to a commonly occurring problem.  
