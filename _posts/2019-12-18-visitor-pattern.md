@@ -1,6 +1,3 @@
-Welcome file
-Welcome file
-
 ---
 title: Visitor design pattern
 tags: [design-pattern]
