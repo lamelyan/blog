@@ -17,6 +17,7 @@
 
 ### Functional priciples
 
+Here are my notes from a great presentation by Vladimir Khorikov.  Great presentation on how applying functional principles makes your code easier to reason about and increases your confidence that the logic is doing what it suppose to.
 
 <a href="https://app.pluralsight.com/library/courses/csharp-applying-functional-principles/" target="_blank">Applying Functional Principles in C#</a>
 by Vladimir Khorikov
