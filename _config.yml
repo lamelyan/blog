@@ -1,4 +1,4 @@
 baseurl: /blog
 github:
   is_project_page: false
-remote_theme: nielsenramon/chalk
+remote_theme: "nielsenramon/chalk"
