@@ -8,7 +8,7 @@ A list of people who articulate concepts exceptionally well.
 ### Design Patterns
 
    A software design pattern is a general, reusable solution to a commonly occurring problem.  
-   Here are my notes on some of the design patterns
+   Here are my notes on some of the design patterns.
 
 <ul>
   {% for post in site.posts %}
@@ -23,7 +23,7 @@ A list of people who articulate concepts exceptionally well.
 
 ### Functional priciples
 
-Here are my notes from a great presentation by Vladimir Khorikov.  Great presentation on how applying functional principles makes your code easier to reason about and increases your confidence that the logic is doing what it suppose to.
+Great presentation by Vladimir Khorikov on applying functional principles in C#. He demonstrates how this makes your code easier to reason about and increases your confidence that the logic is doing what it suppose to.
 
 <a href="https://app.pluralsight.com/library/courses/csharp-applying-functional-principles/" target="_blank">Applying Functional Principles in C#</a>
 by Vladimir Khorikov
