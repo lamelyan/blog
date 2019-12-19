@@ -1,4 +1,4 @@
-### Great people to follow in .NET space
+### Presenters to follow 
 A list of people who articulate concepts exceptionally well. 
 
 - Scott Allen <a href="https://odetocode.com/" target="_blank">https://odetocode.com/</a> 
