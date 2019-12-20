@@ -1,5 +1,5 @@
-### Presenters to follow 
-A list of people who articulate concepts exceptionally well. 
+### Presenters to follow in .NET space
+A list of people who articulate concepts well. 
 
 - Scott Allen <a href="https://odetocode.com/" target="_blank">https://odetocode.com/</a> 
 - Mark Seemann <a href="https://blog.ploeh.dk/about/" target="_blank">https://blog.ploeh.dk/about/</a> 
