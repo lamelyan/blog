@@ -62,3 +62,7 @@ Takeaways:
 
 The best explanation of SOLID principles I've seen so far is
 <a href="https://app.pluralsight.com/library/courses/encapsulation-solid/table-of-contents" target="_blank">this pluralsight presentation </a>by Mark Seemann. I will need to jot down a list of takeaways for reference.
+
+### Javascript concepts and notes
+ <a href="https://amelyan.com/2020/01/03/javascript-closures.html">Closure</a> - great explanation of closure and it's uses in Javascript.
+
