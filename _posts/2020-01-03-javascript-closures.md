@@ -5,6 +5,13 @@ tags: [javascript]
 ---
 
 Out of all the blog posts, [the one by Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) is probably the best explanation of closures. 
+
+
+A prerequisite to understanding closure is to understand lexical scoping. 
+
+>lexical scoping uses the location where a variable is declared within the source code to determine where that variable is available.
+
+
 I especially like the section about the practicality of closures. Since I primarily use Typescript, I have the convenience of OOP syntactical sugar. But it is good to be able to understand how this is achieved. 
 
 
