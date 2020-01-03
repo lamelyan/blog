@@ -5,7 +5,7 @@ tags: [javascript]
 ---
 
 Out of all the blog posts, [the one by Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) is probably the best explanation of closures. 
-I especially like the section about the practicality of closures. Since I primarily use Typescript, I have the convenience of OOP syntactical sugar. But it is good to be able to understand how it is achieved. 
+I especially like the section about the practicality of closures. Since I primarily use Typescript, I have the convenience of OOP syntactical sugar. But it is good to be able to understand how this is achieved. 
 
 
 >Closures are useful because they let you associate some data (the lexical environment) with a function that operates on that data. This has obvious parallels to object-oriented programming, where objects allow us to associate some data (the object's properties) with one or more methods.
