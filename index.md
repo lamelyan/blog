@@ -2,7 +2,7 @@
 
 <a href="https://www.manning.com/books/dependency-injection-principles-practices-patterns" target="_blank">Dependency Injection Principles, Practices, and Patterns </a> by Steven van Deursen and Mark Seemann
 
-<a href="https://amelyan/2020/01/09/dependency-injection-principles-practices-patterns.html">Takeaways here</a>
+<a href="https://amelyan.com/2020/01/09/dependency-injection-principles-practices-patterns.html">Takeaways here</a>
 
 ### Presenters to follow in .NET space
 A list of people who articulate concepts well. 
