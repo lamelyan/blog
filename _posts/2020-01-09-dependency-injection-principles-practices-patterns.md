@@ -24,9 +24,9 @@ tags: [dd-ppp]
 
 >The Composition Root is located as close as possible to the application’s entry point. In most .NET Core application types, the entry point is the `Main` method. Inside the Composition Root, you can decide to compose your application manually — that’s using Pure DI — or to delegate it to a DI Container. [reference](https://livebook.manning.com/book/dependency-injection-principles-practices-patterns/chapter-3/point-7646-58-58-0)
 
-### Building an independent domain model
+### Independent domain model
 
->The domain model is a plain, vanilla C# library that we add to the solution. This library will contain POCOs and interfaces.  *The POCOs will model the domain while the interfaces provide Abstractions that will serve as our main external entry points into the domain model.* [reference](https://livebook.manning.com/book/dependency-injection-principles-practices-patterns/chapter-3/point-7643-64-65-0)
+>The domain model is a plain, vanilla C# library that we add to the solution. This library will contain POCOs and interfaces. The POCOs will model the domain while the interfaces provide Abstractions that will serve as our main external entry points into the domain model. _They’ll provide the contract through which the domain model interacts with the data access layer._ [reference](https://livebook.manning.com/book/dependency-injection-principles-practices-patterns/chapter-3/point-7643-64-65-0)
 
 
 ### Contextual information should be hidden 
