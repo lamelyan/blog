@@ -8,7 +8,7 @@ tags: [dd-ppp]
 
 >DI is nothing more than a collection of design principles and patterns. It’s more about a way of thinking and designing code than it is about tools and techniques.
 
->Casses shouldn’t ask a third party for their Dependencies. This is an anti-pattern called Service Locator. Instead, classes should specify their required Dependencies statically using constructor parameters, a practice called Constructor Injection.
+>Classes shouldn’t ask a third party for their Dependencies. This is an anti-pattern called Service Locator. Instead, classes should specify their required Dependencies statically using constructor parameters, a practice called Constructor Injection.
 
 >One of the most important software design principles that enables DI is the Liskov Substitution Principle. It allows replacing one implementation of an interface with another without breaking either the client or the implementation.
 [reference](https://livebook.manning.com/book/dependency-injection-principles-practices-patterns/chapter-1/point-7644-298-300-0)
