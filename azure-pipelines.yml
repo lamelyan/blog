@@ -15,3 +15,12 @@ variables:
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
+- task: apimfunction@3
+  inputs:
+    ConnectedServiceNameARM: 'APIM-Functions-Connection'
+    APIResourceGroupName: 'apim-demo'
+    ApiPortalName: 'https://my-api-management-service.portal.azure-api.net/'
+    targetapi: 'my-demo-function-02'
+    pathapi: 'my-demo-function-02'
+    ResourceGroupName: 'apim-demo'
+    HostingWebSite: 'my-demo-function-02'
