@@ -7,6 +7,8 @@
 ### Presenters to follow in .NET space
 A list of people who articulate concepts well. 
 
+- JetBrains Youtube <a href="https://www.youtube.com/@JetBrainsTV">https://www.youtube.com/@JetBrainsTV</a>
+- Travis Media <a href="https://www.youtube.com/@TravisMedia">https://www.youtube.com/@TravisMedia</a>
 - Fireship <a href="https://www.youtube.com/@Fireship">https://www.youtube.com/@Fireship</a>
 - Scott Allen <a href="https://odetocode.com/" target="_blank">https://odetocode.com/</a> 
 - Mark Seemann <a href="https://blog.ploeh.dk/about/" target="_blank">https://blog.ploeh.dk/about/</a> 
