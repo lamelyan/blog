@@ -1,9 +1,6 @@
-## About Me
+[LinkedIn](https://www.linkedin.com/in/amelyan/)
 
+[Blog](https://blog.amelyan.com)
 
-LinkedIn - https://www.linkedin.com/in/amelyan/
-
-Blog - https://blog.amelyan.com
-
-GitHub - https://github.com/lamelyan
+[GitHub](https://github.com/lamelyan)
 
